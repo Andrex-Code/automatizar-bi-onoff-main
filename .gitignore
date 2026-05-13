@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Test/cache folders
+.pytest_cache/
+
+# Local runtime/output folders
+logs/
+output/
+automatizador_bi/logs/
+automatizador_bi/output/
+
+# Build artifacts
+build/
+dist/
+automatizador_bi/build/
+automatizador_bi/dist/
+*.spec.bak
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary compiled app backups
+ONOFF_Automatizador_BI_Fast_old.exe
+ONOFF_Automatizador_BI_Portable.zip
+
+# Local PyInstaller unpacked runtime (can exceed GitHub file limits)
+_internal/
